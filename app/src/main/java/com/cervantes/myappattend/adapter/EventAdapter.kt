@@ -43,7 +43,7 @@ class EventAdapter(private val dataSet: List<Event>): RecyclerView.Adapter<Event
             Toast.makeText(context,"CONFIRMAR ASISTENCIA",Toast.LENGTH_SHORT).show()
         }
         binding.pictureDeny.setOnClickListener{
-            Toast.makeText(context,"NO ASISTIRé",Toast.LENGTH_SHORT).show()
+            Toast.makeText(context,"NO ASISTIRÉ",Toast.LENGTH_SHORT).show()
         }
         binding.pictureInfo.setOnClickListener{
             Toast.makeText(context,"MOSTRAR INFORMACIÓN",Toast.LENGTH_SHORT).show()
